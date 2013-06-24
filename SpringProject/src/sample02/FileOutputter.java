@@ -1,6 +1,8 @@
-package sample01;
+package sample02;
 
 import java.io.*;
+
+import sample01.*;
 
 public class FileOutputter implements Outputter {
 	

@@ -3,7 +3,7 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 	
-	<bean id="messageBean" class="sample01.MessageBeanImpl">
+	<bean id="messageBean" class="sample02.MessageBeanImpl">
 		<constructor-arg>
 			<value>Spring</value>
 		</constructor-arg>
@@ -17,7 +17,7 @@
 		</property>
 	</bean>
 	
-	<bean id="outputter" class="sample01.FileOutputter">
+	<bean id="outputter" class="sample02.FileOutputter">
 		<property name="filePath">
 			<value>out.txt</value>
 		</property>
